@@ -57,14 +57,3 @@ Python, Pandas, NumPy, Scikit-learn, TensorFlow/Keras, Matplotlib, Jupyter Noteb
 ## Results
 
 *Coming soon.*
-
-## How to Run
-
-```bash
-git clone <your-repository-url>
-cd <your-repository-name>
-pip install -r requirements.txt
-jupyter notebook
-```
-
-Place the dataset CSV in the same folder as the notebook.
