@@ -7,7 +7,6 @@ This project forecasts **next-month rainfall (mm)** for 22 locations across Paki
 ## Dataset
 
 - **File:** `pakistan_flood_locations_monthly_weather_1981_2026.csv`
-- **Source:** *(add the download link here)*
 - **Size:** 12,012 rows, 12 columns
 - **Coverage:** 22 locations, 4 provinces (Sindh, Punjab, Khyber Pakhtunkhwa, Balochistan), monthly data from 1981 to 2026
 - **Main columns:** location, province, latitude, longitude, year, month, monthly_rainfall_mm, avg_temperature_c, avg_max_temperature_c, avg_min_temperature_c, avg_relative_humidity, and others
@@ -21,9 +20,9 @@ This project forecasts **next-month rainfall (mm)** for 22 locations across Paki
 
 ### Phase 1: Data understanding and cleaning
 - [x] Load the dataset and check its shape and summary statistics
-- [ ] Check missing values and duplicates
-- [ ] Sort data by location and date
-- [ ] Exploratory data analysis (seasonality, rainfall distribution, extreme months)
+- [x] Check missing values and duplicates
+- [x] Sort data by location and date
+- [x] Exploratory data analysis (seasonality, rainfall distribution, extreme months)
 
 ### Phase 2: Features and split
 - [ ] Create lag features per location (previous month, same month last year, 3-month average)
